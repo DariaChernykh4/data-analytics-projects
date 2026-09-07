@@ -43,9 +43,10 @@ Three standalone Tableau dashboards, each covering a different domain and chart 
 
 | Dashboard | Focus |
 |---|---|
-| **[Email Campaign Analytics](https://public.tableau.com/app/profile/.66217699/viz/EmailMetrics)** | Open/click/CTOR rates, engagement trends over time, performance by country |
-| **[Session Analytics](https://public.tableau.com/app/profile/.66217699/viz/SessionAnalytics)** | Session volume by browser/channel, geographic distribution, top countries |
-| **[Netflix Movies & TV Series](https://public.tableau.com/app/profile/.66217699/viz/NetflixMoviesTVSeries)** | Content duration and country distribution for a public streaming-catalog dataset |
+| **[Sales Analytics](https://public.tableau.com/views/SalesAnalytics_17684215221180/Sales?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** | |
+| **[Email Campaign Analytics](https://public.tableau.com/views/EmailMetrics_17684914175520/EmailMetrics?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** | Open/click/CTOR rates, engagement trends over time, performance by country |
+| **[User Session Analytics](https://public.tableau.com/views/SessionAnalytics_17683038907660/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** | Session volume by browser/channel, geographic distribution, top countries |
+| **[Period Comparison Analytics](https://public.tableau.com/views/DynamicDashboard_17685799735530/DynamicDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** | |
 
 *(See [`tableau-projects/README.md`](tableau-projects/README.md) for direct links.)*
 
