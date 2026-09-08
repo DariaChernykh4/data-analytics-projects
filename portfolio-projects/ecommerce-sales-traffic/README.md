@@ -72,5 +72,5 @@ All tests use a two-sided alternative hypothesis (α = 0.05):
 - SQL queries for data extraction from BigQuery
 - Python/Jupyter notebook with EDA, visualizations, and statistical testing
 - Tableau Public interactive dashboard:
-![Sales Performance](e-commerce_sales_performance.png)
-![Traffic & Sessions](e-commerce_traffic&sessions.png)
+![Sales Performance](tableau-screenshots/e-commerce_sales_performance.png)
+![Traffic & Sessions](tableau-screenshots/e-commerce_traffic&sessions.png)
