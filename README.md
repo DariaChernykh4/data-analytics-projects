@@ -33,7 +33,7 @@ A BigQuery query joining account, session, and email event data to rank countrie
 
 End-to-end EDA on a global retail dataset (events, products, countries) - data cleaning with documented missing-value strategy, outlier detection (3×IQR), feature engineering (revenue/profit/margin), and analysis across product category, geography, sales channel, shipping logistics, and seasonality. Includes a final Business Intelligence Report synthesizing findings.
 
-- [Notebook](python-project/Global_Sales_Logistics_Analysis.ipynb)
+- [Notebook](python-project/global_sales_logistics_analysis.ipynb)
 
 ---
 
