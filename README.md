@@ -39,15 +39,13 @@ End-to-end EDA on a global retail dataset (events, products, countries) - data c
 
 ## Tableau Projects
 
-Three standalone Tableau dashboards, each covering a different domain and chart vocabulary:
-
 | Dashboard | Focus |
 |---|---|
-| **[Netflix Movies & TV Series](https://public.tableau.com/views/NetflixMoviesTVSeries/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** | |
-| **[Sales Analytics](https://public.tableau.com/views/SalesAnalytics_17684215221180/Sales?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** | |
+| **[Netflix Movies & TV Series](https://public.tableau.com/views/NetflixMoviesTVSeries/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** | 8,204 titles across 84 countries, content type mix, top genres, release trends |
+| **[Sales Analytics](https://public.tableau.com/views/SalesAnalytics_17684215221180/Sales?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** | Filterable revenue/orders/AOV KPIs, category breakdown, geographic and device distribution |
 | **[Email Campaign Analytics](https://public.tableau.com/views/EmailMetrics_17684914175520/EmailMetrics?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** | Open/click/CTOR rates, engagement trends over time, performance by country |
 | **[User Session Analytics](https://public.tableau.com/views/SessionAnalytics_17683038907660/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** | Session volume by browser/channel, geographic distribution, top countries |
-| **[Period Comparison Analytics](https://public.tableau.com/views/DynamicDashboard_17685799735530/DynamicDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** | |
+| **[Period Comparison Analytics](https://public.tableau.com/views/DynamicDashboard_17685799735530/DynamicDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** | Before/after comparison of two custom periods — revenue, ROI, CPA, RPC, funnel rates |
 
 *(See [`tableau-projects/README.md`](tableau-projects/README.md) for direct links.)*
 
