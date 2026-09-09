@@ -1,4 +1,4 @@
--- Top 10 Countries by Account Registration & Email Engagement
+-- User Acquisition & Email Engagement
 -- Combines account-level and email-level metrics via UNION ALL, then ranks
 -- countries by two independent criteria (accounts created, emails sent)
 -- and keeps only rows for countries that place top-10 in either ranking.
