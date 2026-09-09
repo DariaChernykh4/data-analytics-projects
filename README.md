@@ -43,6 +43,7 @@ Three standalone Tableau dashboards, each covering a different domain and chart 
 
 | Dashboard | Focus |
 |---|---|
+| **[Netflix Movies & TV Series](https://public.tableau.com/views/NetflixMoviesTVSeries/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** | |
 | **[Sales Analytics](https://public.tableau.com/views/SalesAnalytics_17684215221180/Sales?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** | |
 | **[Email Campaign Analytics](https://public.tableau.com/views/EmailMetrics_17684914175520/EmailMetrics?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** | Open/click/CTOR rates, engagement trends over time, performance by country |
 | **[User Session Analytics](https://public.tableau.com/views/SessionAnalytics_17683038907660/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** | Session volume by browser/channel, geographic distribution, top countries |
