@@ -67,6 +67,7 @@ Achieved power = 76% (target 80%) - slightly underpowered since the actual effec
 **Guardrail:** share of users spending 15+ credits was virtually unchanged (41.1% control vs 41.3% test) - the reminder does not discourage product usage.
 
 **Weekly trend:** groups tracked evenly in weeks 11-12 (new users need time to spend their first 15 credits and trigger the reminder), then Group B pulled consistently ahead from week 13 onward, peaking at +1.34pp in week 16 - the effect is stable and strengthens over time.
+![Graph](data/ab-test-graph.png)
 
 ## Data Quality Investigation
 
