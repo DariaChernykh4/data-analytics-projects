@@ -1,6 +1,6 @@
 # Data Analytics Portfolio
 
-A collection of coursework projects demonstrating SQL, Python, and Tableau skills - built as part of a data analytics course portfolio, spanning data cleaning, statistical analysis, and interactive dashboard design.
+A collection of coursework and self-directed projects demonstrating SQL, Python, and Tableau skills - spanning data cleaning, statistical analysis, A/B testing, classification, customer segmentation, and interactive dashboard design.
 
 ---
 
@@ -11,7 +11,7 @@ Two end-to-end projects combining SQL (BigQuery), Python, and Tableau - from raw
 | Project | Description | Links |
 |---|---|---|
 | **[E-Commerce Sales & Traffic Analytics](portfolio-projects/ecommerce-sales-traffic)** | Sales analytics for a furniture e-commerce store: $31.97M revenue, 33,538 orders across 108 countries. Statistical testing (Kruskal-Wallis) on order value by device and subscription status. | [Notebook](portfolio-projects/ecommerce-sales-traffic/ecommerce_sales_traffic.ipynb) · [Tableau Public](https://public.tableau.com/views/E-commerceSalesTrafficAnalytics/SalesPerformance?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) |
-| **[A/B Testing Framework](portfolio-projects/ab-testing-framework)** | Statistical significance analysis (two-proportion z-test) for 4 conversion metrics across 4 A/B tests, broken down by country, device, channel, and continent - implemented as reusable functions, not hardcoded per metric. | [Notebook](portfolio-projects/ab-testing-framework/A_B_Testing.ipynb) · [Tableau Public](https://public.tableau.com/views/ABTesting_17716044091480/StatSignificance?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) |
+| **[A/B Testing Framework](portfolio-projects/ab-testing-framework)** | Statistical significance analysis (two-proportion z-test) for 4 conversion metrics across 4 A/B tests, broken down by country, device, channel, and continent - implemented as reusable functions, not hardcoded per metric. | [Notebook](portfolio-projects/ab-testing-framework/ab_testing.ipynb) · [Tableau Public](https://public.tableau.com/views/ABTesting_17716044091480/StatSignificance?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) |
 
 ---
 
@@ -23,12 +23,12 @@ Four standalone BigQuery exercises covering multi-CTE aggregation with ranking, 
 |---|---|
 | **[User Acquisition & Email Engagement](sql-projects/01_user_acquisition_email_engagement.sql)** | Ranks countries by account volume and email send volume independently via `UNION ALL` + `DENSE_RANK()`, surfacing where the two rankings diverge. [Looker Studio dashboard](https://datastudio.google.com/u/0/reporting/2c6cf524-3613-4674-8228-37b69341aa2a/page/tEnnC) |
 | **[Revenue by Device and Continent with Sessions](sql-projects/02_revenue_by_device_continent.sql)** | Per-continent revenue (total, mobile, desktop, % of total) joined with account/session counts |
-| **[Emails Sent by Month](sql-project/03_emails_sent_by_month_window_functions.sql)** | % of monthly email volume per account plus first/last send date - window functions only, no `GROUP BY` |
-| **[Aggregation Data with View](sql-project/04_aggregation_with_view.sql)** | Same logic as above, persisted as two chained BigQuery views |
+| **[Emails Sent by Month](sql-projects/03_emails_sent_by_month_window_functions.sql)** | % of monthly email volume per account plus first/last send date - window functions only, no `GROUP BY` |
+| **[Aggregation Data with View](sql-projects/04_aggregation_with_view.sql)** | Same logic as above, persisted as two chained BigQuery views |
 
 ---
 
-## Python Project
+## Python Projects
 
 Four standalone Python analyses spanning EDA, experimentation, classification, and customer analytics.
 
@@ -39,10 +39,11 @@ Four standalone Python analyses spanning EDA, experimentation, classification, a
 | **[Credit Scoring: Logistic Regression](python-projects/credit-scoring)** | Credit card approval model with business-driven metric selection (specificity over accuracy given class imbalance and cost asymmetry) and hyperparameter tuning (penalty, C) optimized for that metric. | [Notebook](python-projects/credit-scoring/credit-scoring.ipynb) |
 | **[RFM Customer Segmentation](python-projects/rfm-segmentation)** | SQL + Python segmentation of email subscribers by Recency/Frequency/Monetary into Top/Middle/Lost segments, with per-segment engagement recommendations. | [Notebook](python-projects/rfm-segmentation/rfm_segmentation.ipynb) |
 
-
 ---
 
 ## Tableau Projects
+
+Five standalone Tableau dashboards, each covering a different domain and chart vocabulary:
 
 | Dashboard | Focus |
 |---|---|
@@ -50,7 +51,7 @@ Four standalone Python analyses spanning EDA, experimentation, classification, a
 | **[Sales Analytics](https://public.tableau.com/views/SalesAnalytics_17684215221180/Sales?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** | Filterable revenue/orders/AOV KPIs, category breakdown, geographic and device distribution |
 | **[Email Campaign Analytics](https://public.tableau.com/views/EmailMetrics_17684914175520/EmailMetrics?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** | Open/click/CTOR rates, engagement trends over time, performance by country |
 | **[User Session Analytics](https://public.tableau.com/views/SessionAnalytics_17683038907660/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** | Session volume by browser/channel, geographic distribution, top countries |
-| **[Period Comparison Analytics](https://public.tableau.com/views/DynamicDashboard_17685799735530/DynamicDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** | Before/after comparison of two custom periods — revenue, ROI, CPA, RPC, funnel rates |
+| **[Period Comparison Analytics](https://public.tableau.com/views/DynamicDashboard_17685799735530/DynamicDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** | Before/after comparison of two custom periods - revenue, ROI, CPA, RPC, funnel rates |
 
 *(See [`tableau-projects/README.md`](tableau-projects/README.md) for direct links.)*
 
