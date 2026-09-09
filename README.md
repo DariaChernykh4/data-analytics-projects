@@ -17,13 +17,14 @@ Two end-to-end projects combining SQL (BigQuery), Python, and Tableau - from raw
 
 ## SQL Project
 
-**[Top Countries by Account Registration & Email Engagement](sql-project)**
+Four standalone BigQuery exercises covering multi-CTE aggregation with ranking, cross-table joins with percentage-of-total math, and pure window-function aggregation (with and without persisted views).
 
-A BigQuery query joining account, session, and email event data to rank countries by account volume and email send volume independently - surfacing where the two rankings diverge (e.g. Singapore's disproportionately high emails-per-account ratio).
-
-- [SQL query](sql-project/top_countries_email_engagement.sql)
-- [Findings & interpretation](sql-project/findings.md)
-- [Looker Studio dashboard](https://lookerstudio.google.com/reporting/2c6cf524-3613-4674-8228-37b69341aa2a)
+| Query | Description |
+|---|---|
+| **[User Acquisition & Email Engagement](sql-projects/01_user_acquisition_email_engagement.sql)** | Ranks countries by account volume and email send volume independently via `UNION ALL` + `DENSE_RANK()`, surfacing where the two rankings diverge. [Looker Studio dashboard](https://datastudio.google.com/u/0/reporting/2c6cf524-3613-4674-8228-37b69341aa2a/page/tEnnC) |
+| **[Revenue by Device and Continent with Sessions](sql-projects/02_revenue_by_device_continent.sql)** | Per-continent revenue (total, mobile, desktop, % of total) joined with account/session counts |
+| **[Emails Sent by Month](sql-project/03_emails_sent_by_month_window_functions.sql)** | % of monthly email volume per account plus first/last send date - window functions only, no `GROUP BY` |
+| **[Aggregation Data with View](sql-project/04_aggregation_with_view.sql)** | Same logic as above, persisted as two chained BigQuery views |
 
 ---
 
@@ -57,9 +58,15 @@ Four standalone Python analyses spanning EDA, experimentation, classification, a
 
 ## Tech Stack
 
-- **SQL** - Google BigQuery (CTEs, window functions, multi-table joins)
-- **Python** - pandas, numpy, scipy, statsmodels, matplotlib, seaborn
-- **Tableau** / **Looker Studio** - interactive dashboards
+- **SQL** - Google BigQuery (CTEs, window functions, multi-table joins, views)
+- **Python** - pandas, numpy, scipy, statsmodels, scikit-learn, matplotlib, seaborn
+- **Tableau Public** - interactive dashboards
+- **Looker Studio** - interactive dashboard
+- **Google Sheets** - pivot tables, formulas, and ABC analysis
+
+## Additional Practice
+
+**[LeetCode Solutions](https://github.com/DariaChernykh4/leetcode-solutions)** - 20 solved SQL problems (Easy/Medium/Hard), covering joins, window functions, self-joins, and ranking - kept as a separate repo since it's ongoing practice rather than a portfolio case study.
 
 ## Author
 
