@@ -2,7 +2,7 @@
 
 A comprehensive A/B testing analysis report for an e-commerce platform, built using SQL, Python, and Tableau. The framework evaluates the impact of four A/B tests on key conversion metrics and assesses statistical significance across multiple dimensions (device, continent, country, channel) to identify which variations drive meaningful improvements in user behavior.
 
-**[View Interactive Dashboard (Tableau Public)](https://public.tableau.com/shared/RKDNK4M3R?:display_count=n&:origin=viz_share_link)**
+**[View Interactive Dashboard (Tableau Public)](https://public.tableau.com/views/ABTesting_17716044091480/StatSignificance?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
 ## Dataset
 
